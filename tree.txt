@@ -1,0 +1,39 @@
+.
+├── Dockerfile
+├── Pipfile
+├── Pipfile.lock
+├── docker-compose.yml
+├── input_folder
+├── out
+├── project_tree.md
+├── run.py
+├── src
+│   ├── __init__.py
+│   ├── api
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── app.py
+│   ├── config
+│   │   ├── __init__.py
+│   │   └── app_settings.py
+│   ├── executors
+│   │   ├── __init__.py
+│   │   └── custom_executor.py
+│   ├── middleware
+│   │   └── __init__.py
+│   ├── models
+│   │   └── __init__.py
+│   ├── pre_processors
+│   │   ├── __init__.py
+│   │   ├── feature_extractor.py
+│   │   ├── text_extractor.py
+│   │   └── tokenizer.py
+│   ├── processors
+│   │   ├── __init__.py
+│   │   └── pdf_processor.py
+│   └── sockets
+│       ├── __init__.py
+│       └── sio.py
+├── tree.txt
+
+3374 directories, 35685 files
